@@ -25,42 +25,82 @@
             style="background-image: url(./assets/images/Rectangle\ 50.png); max-width: 1440px;">
             <div id="overlay" class="position-absolute top-0 start-0"
                 style="background-image: url(./assets/images/Rectangle\ 51.png); width: 66%; height: 98%;"></div>
-            <div id="top-nav" class="py-4 position-relative">
-                <div class="container d-lg-flex align-items-center">
+
+            <nav id="top-nav" class="py-4 position-relative navbar navbar-expand-lg navbar-dark">
+                <div class="container d-flex align-items-center justify-content-between">
                     <a href="#" class="text-decoration-none" style="font-size: 24px;">Funiro.</a>
-                    <div class="d-lg-flex align-items-center flex-grow-1">
-                        <nav>
-                            <ul class="d-lg-flex list-unstyled mb-0">
-                                <li class="ms-lg-4 ms-xl-5"><a href="#">Product<i
-                                            class="fa-solid fa-chevron-down ms-2"></i></a>
-                                </li>
-                                <li class="ms-lg-4 ms-xl-5"><a href="#">Rooms<i
-                                            class="fa-solid fa-chevron-down ms-2"></i></a>
-                                </li>
-                                <li class="ms-lg-4 ms-xl-5"><a href="#">Inspirations</a></li>
-                            </ul>
-                        </nav>
-                        <form class="bg-white d-flex align-items-center ms-lg-5 px-1 py-2 col-lg-4 col-xl-4 col-xxl-5">
-                            <button type="submit" class="border-0 bg-white px-1 d-flex"><img
-                                    src="./assets/images/Search.svg" alt=""></button>
-                            <input class="border-0 ms-1 w-100" type="text" placeholder="Search for minimalist chair"
-                                style="outline: none;">
-                        </form>
-                        <nav class="ms-lg-auto">
-                            <ul class="d-lg-flex align-items-center list-unstyled mb-0">
-                                <li class="me-lg-4"><a href="#"><img src="./assets/images/Vector.svg" alt=""></a>
-                                </li>
-                                <li class="me-lg-4"><a href="#"><img src="./assets/images/Cart.svg" alt=""></a></li>
-                                <li><a href="#"><img src="" alt="" class="rounded-circle bg-secondary" width="40"
-                                            height="40" style="object-fit: cover;"></a></li>
-                            </ul>
-                        </nav>
+                    <button class="text-primary navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavbar">
+                        <span><i class="fa-solid fa-bars"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <div class="d-lg-flex align-items-center w-100">
+                            <nav>
+                                <ul class="d-lg-flex list-unstyled mb-0">
+                                    <li class="ms-lg-4 ms-xl-5 my-3 my-lg-0"><a href="#">Product<i
+                                                class="fa-solid fa-chevron-down ms-2"></i></a></li>
+                                    <li class="ms-lg-4 ms-xl-5 my-3 my-lg-0"><a href="#">Rooms<i
+                                                class="fa-solid fa-chevron-down ms-2"></i></a></li>
+                                    <li class="ms-lg-4 ms-xl-5 my-3 my-lg-0"><a href="#">Inspirations</a></li>
+                                </ul>
+                            </nav>
+                            <form
+                                class="bg-white d-flex align-items-center mt-3 mt-lg-0 ms-lg-5 px-1 py-2 col-lg-4 col-xl-4 col-xxl-5">
+                                <button type="submit" class="border-0 bg-white px-1 d-flex"><img
+                                        src="./assets/images/Search.svg" alt=""></button>
+                                <input class="border-0 ms-1 w-100" type="text" placeholder="Search for minimalist chair"
+                                    style="outline: none;">
+                            </form>
+                            <nav class="ms-lg-auto mt-3 mt-lg-0">
+                                <ul class="d-lg-flex align-items-center list-unstyled mb-0">
+                                    <li class="me-lg-4 my-3 my-lg-0"><a href="#"><img src="./assets/images/Vector.svg"
+                                                alt=""></a>
+                                    </li>
+                                    <li class="me-lg-4 my-3 my-lg-0"><a href="#"><img src="./assets/images/Cart.svg"
+                                                alt=""></a></li>
+                                    <li><a href="#"><img src="" alt="" class="rounded-circle bg-secondary" width="40"
+                                                height="40" style="object-fit: cover;"></a></li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </nav>
+
             <div id="image-gallery" class="position-relative mx-auto pb-5" style="width: 95%;">
                 <div class="single-item">
-                    <div class="bg-primary position-relative d-flex" style="height: 624px;">
+                    <div class="position-relative d-flex" style="height: 624px;">
+                        <img class="w-100 h-100 bg-secondary" src="" alt="" style="object-fit: cover;">
+                        <div class="position-absolute d-md-flex top-0 start-0 w-100 h-100 p-2 px-md-4 py-5 p-lg-5 text-white">
+                            <!-- Phần tiêu đề và nội dung bên trái -->
+                            <div class="col-8 col-md-6 col-xl-5 ps-0 ps-lg-5 mt-auto">
+                                <div class="p-2 py-3 p-md-4 px-md-4 p-xl-5 text-dark d-flex flex-column justify-content-between"
+                                    style="background-color: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px);">
+                                    <h1 class="display-4">High-Quality Furniture Just For You</h1>
+                                    <p class="lead">Our furniture is made from selected <br> and best quality materials
+                                        that
+                                        are <br> suitable for your dream home.</p>
+                                    <a href="#">
+                                        <button href="#" class="btn btn-primary btn-lg w-100 border-0 rounded-0 p-md-4"
+                                            style="max-height: 87px; background-color: #e89f71;">Shop Now</button>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Phần hình ảnh và thông tin sản phẩm bên phải -->
+                            <div class="col-md-4 col-xl-3 ms-auto mt-auto pe-lg-5">
+                                <div class="p-2 py-3 p-md-3 p-xl-4 text-dark d-flex flex-column justify-content-between mt-2 ms-md-0"
+                                    style="min-height: 138px; background-color: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px);">
+                                    <h5 class="mb-1">Bohass</h5>
+                                    <p class="mb-2">Luxury big sofa 2-seat</p>
+                                    <div class="d-flex justify-content-between">
+                                        <p class="mb-0 fw-bold">Rp 17.000.000 </p>
+                                        <a href="#"><i class="fas fa-arrow-right" style="font-style: 24px;"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-relative d-flex" style="height: 624px;">
                         <img class="w-100 h-100 bg-secondary" src="" alt="" style="object-fit: cover;">
                         <div class="position-absolute d-flex top-0 start-0 w-100 h-100 p-5 text-white">
                             <!-- Phần tiêu đề và nội dung bên trái -->
@@ -89,17 +129,63 @@
                             </div>
                         </div>
                     </div>
-                    <div class="bg-primary position-relative d-flex" style="height: 600px;">
+                    <div class="position-relative d-flex" style="height: 624px;">
                         <img class="w-100 h-100 bg-secondary" src="" alt="" style="object-fit: cover;">
-                        <div class="position-absolute start-0 bottom-0">nguyen huu nhat</div>
+                        <div class="position-absolute d-flex top-0 start-0 w-100 h-100 p-5 text-white">
+                            <!-- Phần tiêu đề và nội dung bên trái -->
+                            <div class="col-md-7 col-lg-5 ps-lg-5">
+                                <div class="p-5 text-dark h-100 d-flex flex-column justify-content-between"
+                                    style="background-color: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px);">
+                                    <h1 class="display-4">High-Quality Furniture Just For You</h1>
+                                    <p class="lead">Our furniture is made from selected <br> and best quality materials
+                                        that
+                                        are <br> suitable for your dream home.</p>
+                                    <button href="#" class="btn btn-primary btn-lg w-100 border-0 rounded-0"
+                                        style="height: 87px; background-color: #e89f71;">Shop Now</button>
+                                </div>
+                            </div>
+                            <!-- Phần hình ảnh và thông tin sản phẩm bên phải -->
+                            <div class="col-md-4 col-lg-3 ms-auto mt-auto pe-lg-5">
+                                <div class="p-4 text-dark d-flex flex-column justify-content-between"
+                                    style="height: 138px; background-color: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px);">
+                                    <h5 class="mb-1">Bohass</h5>
+                                    <p class="mb-2">Luxury big sofa 2-seat</p>
+                                    <div class="d-flex justify-content-between">
+                                        <p class="mb-0 fw-bold">Rp 17.000.000 </p>
+                                        <a href="#"><i class="fas fa-arrow-right" style="font-style: 24px;"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="bg-primary position-relative d-flex" style="height: 600px;">
+                    <div class="position-relative d-flex" style="height: 624px;">
                         <img class="w-100 h-100 bg-secondary" src="" alt="" style="object-fit: cover;">
-                        <div class="position-absolute start-0 bottom-0">nguyen huu nhat</div>
-                    </div>
-                    <div class="bg-primary position-relative d-flex" style="height: 600px;">
-                        <img class="w-100 h-100 bg-secondary" src="" alt="" style="object-fit: cover;">
-                        <div class="position-absolute start-0 bottom-0">nguyen huu nhat</div>
+                        <div class="position-absolute d-flex top-0 start-0 w-100 h-100 p-5 text-white">
+                            <!-- Phần tiêu đề và nội dung bên trái -->
+                            <div class="col-md-7 col-lg-5 ps-lg-5">
+                                <div class="p-5 text-dark h-100 d-flex flex-column justify-content-between"
+                                    style="background-color: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px);">
+                                    <h1 class="display-4">High-Quality Furniture Just For You</h1>
+                                    <p class="lead">Our furniture is made from selected <br> and best quality materials
+                                        that
+                                        are <br> suitable for your dream home.</p>
+                                    <button href="#" class="btn btn-primary btn-lg w-100 border-0 rounded-0"
+                                        style="height: 87px; background-color: #e89f71;">Shop Now</button>
+                                </div>
+                            </div>
+                            <!-- Phần hình ảnh và thông tin sản phẩm bên phải -->
+                            <div class="col-md-4 col-lg-3 ms-auto mt-auto pe-lg-5">
+                                <div class="p-4 text-dark d-flex flex-column justify-content-between"
+                                    style="height: 138px; background-color: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px);">
+                                    <h5 class="mb-1">Bohass</h5>
+                                    <p class="mb-2">Luxury big sofa 2-seat</p>
+                                    <div class="d-flex justify-content-between">
+                                        <p class="mb-0 fw-bold">Rp 17.000.000 </p>
+                                        <a href="#"><i class="fas fa-arrow-right" style="font-style: 24px;"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -476,8 +562,11 @@
                                 <h1 class="fw-bold">50+ Beautiful rooms inspiration</h1>
                                 <p class="text-muted">Our designer already made a lot of beautiful <br>
                                     prototipe of rooms that inspire you</p>
-                                <button class="text-white mt-2 me-auto border-0"
-                                    style="width: 176px; height: 48px; background-color: #e89f71;">Explore More</button>
+                                <a href="#">
+                                    <button class="text-white mt-2 me-auto border-0"
+                                        style="width: 176px; height: 48px; background-color: #e89f71;">Explore
+                                        More</button>
+                                </a>
                             </div>
                         </div>
                         <div class="col-lg-6 mt-5 mt-lg-0">
@@ -490,10 +579,12 @@
                                         <p class="text-muted">01 &mdash;&mdash; Bed Room</p>
                                         <p class="mb-0" style="font-size: 28px; font-weight: 600;">Inner Peace</p>
                                     </div>
-                                    <button class="text-white mt-auto border-0"
-                                        style="width: 57px; height: 48px; background-color: #e89f71;">
-                                        <i class="fa fa-arrow-right"></i>
-                                    </button>
+                                    <a href="#" class="mt-auto">
+                                        <button class="text-white mt-auto border-0"
+                                            style="width: 57px; height: 48px; background-color: #e89f71;">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -509,39 +600,47 @@
                     <div class="center">
                         <div class="mx-3 my-5"
                             style="width: 390px; height: 370px; display: flex; flex-direction: column;">
-                            <img class="bg-secondary w-100" src="image1.jpg" alt="Slide 1" height="250"
-                                style="object-fit: cover;">
-                            <div class="px-3 flex-grow-1 d-flex flex-column justify-content-center">
-                                <h5>How to create a living room to love</h5>
-                                <p class="m-0">20 Jan 2020</p>
-                            </div>
+                            <a href="#">
+                                <img class="bg-secondary w-100" src="image1.jpg" alt="Slide 1" height="250"
+                                    style="object-fit: cover;">
+                                <div class="px-3 flex-grow-1 d-flex flex-column justify-content-center">
+                                    <h5>How to create a living room to love</h5>
+                                    <p class="m-0">20 Jan 2020</p>
+                                </div>
+                            </a>
                         </div>
                         <div class="mx-3 my-5"
                             style="width: 390px; height: 370px; display: flex; flex-direction: column;">
-                            <img class="bg-secondary w-100" src="image1.jpg" alt="Slide 1" height="250"
-                                style="object-fit: cover;">
-                            <div class="px-3 flex-grow-1 d-flex flex-column justify-content-center">
-                                <h5>How to create a living room to love</h5>
-                                <p class="m-0">20 Jan 2020</p>
-                            </div>
+                            <a href="#">
+                                <img class="bg-secondary w-100" src="image1.jpg" alt="Slide 1" height="250"
+                                    style="object-fit: cover;">
+                                <div class="px-3 flex-grow-1 d-flex flex-column justify-content-center">
+                                    <h5>How to create a living room to love</h5>
+                                    <p class="m-0">20 Jan 2020</p>
+                                </div>
+                            </a>
                         </div>
                         <div class="mx-3 my-5"
                             style="width: 390px; height: 370px; display: flex; flex-direction: column;">
-                            <img class="bg-secondary w-100" src="image1.jpg" alt="Slide 1" height="250"
-                                style="object-fit: cover;">
-                            <div class="px-3 flex-grow-1 d-flex flex-column justify-content-center">
-                                <h5>How to create a living room to love</h5>
-                                <p class="m-0">20 Jan 2020</p>
-                            </div>
+                            <a href="#">
+                                <img class="bg-secondary w-100" src="image1.jpg" alt="Slide 1" height="250"
+                                    style="object-fit: cover;">
+                                <div class="px-3 flex-grow-1 d-flex flex-column justify-content-center">
+                                    <h5>How to create a living room to love</h5>
+                                    <p class="m-0">20 Jan 2020</p>
+                                </div>
+                            </a>
                         </div>
                         <div class="mx-3 my-5"
                             style="width: 390px; height: 370px; display: flex; flex-direction: column;">
-                            <img class="bg-secondary w-100" src="image1.jpg" alt="Slide 1" height="250"
-                                style="object-fit: cover;">
-                            <div class="px-3 flex-grow-1 d-flex flex-column justify-content-center">
-                                <h5>How to create a living room to love</h5>
-                                <p class="m-0">20 Jan 2020</p>
-                            </div>
+                            <a href="#">
+                                <img class="bg-secondary w-100" src="image1.jpg" alt="Slide 1" height="250"
+                                    style="object-fit: cover;">
+                                <div class="px-3 flex-grow-1 d-flex flex-column justify-content-center">
+                                    <h5>How to create a living room to love</h5>
+                                    <p class="m-0">20 Jan 2020</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>

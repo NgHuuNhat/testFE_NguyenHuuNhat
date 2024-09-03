@@ -184,6 +184,10 @@ main {
     min-height: 120px;
 }
 
+.item:hover {
+    cursor: pointer;
+}
+
 .item-1 {
     grid-column: 1 / 3;
     grid-row: 1 / 7;
